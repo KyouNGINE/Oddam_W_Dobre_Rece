@@ -1,0 +1,66 @@
+.home_instr_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: -0.76px;
+    color: $brownGray;
+    opacity: 1;
+    padding-bottom: 92px;
+    padding-top: 55px;
+}
+
+li[class$="title"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #3c3c3c;
+    opacity: 1;
+    padding-bottom: 17px;
+    padding-top: 8px;
+}
+
+li[class$="desc"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #3c3c3c;
+    opacity: 1;
+}
+
+.home_instr_4steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #F0F1F1;
+    height: 325px;
+}
+
+.home_instr_final_entry {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #3c3c3c;
+    opacity: 1;
+    letter-spacing: 0;
+    font-size: 36px;
+}
+
+.home_instr_final_entry_button {
+    border: 1px solid #3c3c3c;
+    height: 115px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 93px;
+}

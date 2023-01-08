@@ -1,0 +1,150 @@
+.register_logreg_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 46px;
+    margin-right: 139px;
+}
+
+.register_login_button {
+    src: url('#');
+    cursor: pointer;
+    text-align: right;
+    opacity: 1;
+    color: #737373;
+    letter-spacing: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.register_reg_button {
+    margin-left: 30px;
+    src: url('#');
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #737373;
+    opacity: 1;
+    border: 1px #FAD648 solid;
+    width: 100px;
+    height: 30px;
+}
+
+.register_info_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+    margin-top: 26px;
+    margin-left: 1056px;
+    margin-right: 139px;
+}
+
+.register_start_button {
+    src: url('#');
+    cursor: pointer;
+    // border: 1px #3C3C3C solid;
+    // width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.register_info_button {
+    src: url('#');
+    cursor: pointer;
+}
+
+.register_about_button {
+    src: url('#');
+    cursor: pointer;
+}
+
+.register_fundation_button {
+    src: url('#');
+    cursor: pointer;
+}
+
+.register_contact_button {
+    src: url('#');
+    cursor: pointer;
+}
+
+
+.register_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 123px;
+    font-size: 40px;
+    margin-bottom: 118px;
+}
+
+.register_form_container {
+    display: flex;
+    justify-content: center;
+}
+
+.register_form {
+    background-color: $dirtyWhite;
+    display: flex;
+    justify-content: center;
+    height: 328px;
+    width: 384.5px;
+    align-items: center;
+}
+
+.register_email {
+    margin-bottom: 15px;
+}
+
+.register_email_input {
+    margin-bottom: 31px;
+}
+
+.register_password {
+    margin-bottom: 15px;
+}
+
+.register_password_input {
+    margin-bottom: 31px;
+}
+
+.register_2ndpassword {
+    margin-bottom: 15px;
+}
+
+.register_accounts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.register_register_acc {
+    margin-left: 550px;
+    cursor: pointer;
+    border: 1px solid $brownGray;
+    height: 50px;
+    width: 117px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.register_login_acc {
+    margin-right: 550px;
+    // border: 1px solid $brownGray;
+    height: 50px;
+    width: 117px;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}

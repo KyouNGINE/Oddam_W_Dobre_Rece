@@ -1,0 +1,47 @@
+.home_about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F1F1;
+    max-width: 50%;
+}
+
+.home_about_us_left_side {
+    // display: flex;
+}
+
+.home_about_us_title {
+    // display: flex;
+    // justify-content: center;
+    margin-bottom: 114px;
+    font-family: 'Open Sans';
+    font-size: 38px;
+    letter-spacing: -0.76px;
+    color: #3c3c3c;
+    opacity: 1;
+}
+
+.home_about_us_description {
+    // display: flex;
+    // justify-content: center;
+    // text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    letter-spacing: -0.6px;
+    color: #3c3c3c;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+// .home_about_us_sign {
+//     display: flex;
+//     justify-content: center;
+//     margin-left: 450px;
+// }
+
+.home_about_us_right_side {
+    margin-right: -1500px;
+    background-size: cover;
+    z-index: -1;
+    max-width: 200%;
+}

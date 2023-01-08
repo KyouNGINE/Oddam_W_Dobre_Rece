@@ -1,1 +1,17 @@
 @import 'generic/reset';
+@import 'elements/home/footer';
+@import 'elements/home/header';
+@import 'elements/home/yellowbar';
+@import 'settings/all';
+@import 'settings/colors';
+@import 'settings/fonts';
+@import 'elements/home/instruction';
+@import 'elements/home/aboutus';
+@import 'elements/home/fundations/fundations';
+@import 'elements/home/home';
+@import 'elements/login';
+@import 'elements/register';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}

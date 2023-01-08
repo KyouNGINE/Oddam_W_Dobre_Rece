@@ -1,0 +1,104 @@
+.fundations_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    font-size: 38px;
+    letter-spacing: -0.76px;
+    color: #3c3c3c;
+    opacity: 1;
+}
+
+.fundations_ele_content {
+    margin-top: 80px;
+}
+
+.fundations_funds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundations_orgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundations_coll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-content {
+    display: flex;
+}
+
+.active-tab {
+    border: 1px solid $brownGray;
+}
+
+.fundations_elements {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+div[class$="cont"] {
+    display: none;
+}
+
+li[class$="pagi"] {
+    display: none;
+}
+
+.fundations_funds_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fundations_orgs_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fundations_coll_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fundations_funds {
+    width: 208px;
+    height: 79px;
+}
+
+.fundations_orgs {
+    width: 208px;
+    height: 79px;
+}
+
+.fundations_coll {
+    width: 208px;
+    height: 79px;
+}
+
+
+
+// .home_fundations_el_funds {
+//     flex-grow: 1;
+// }
+
+// .home_fundations_el_orgs {
+//     flex-grow: 1;
+// }
+
+// .home_fundations_el_coll {
+//     flex-grow: 1;
+// }
