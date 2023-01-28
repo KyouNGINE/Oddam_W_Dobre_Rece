@@ -1,15 +1,20 @@
-.footer_hero_img {
-    z-index: -1;
-    background-size: cover;
-}
-
 .footer_container {
-    margin-top: 100px;
+    overflow: hidden;
+    // display: flex;
 }
 
-.footer_main_info {
+.div_test {
+    // position: absolute;
+    background-color: greenyellow;
 }
 
-.footer_container {
+.div-test2 {
     display: flex;
+    justify-content: center;
+}
+
+.footer_hero_img {
+    opacity: 0.25;
+    max-width: 100%;
+    position: relative;
 }

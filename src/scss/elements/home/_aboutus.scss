@@ -1,47 +1,52 @@
 .home_about_us {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F0F1F1;
-    max-width: 50%;
+    overflow: hidden;
 }
 
 .home_about_us_left_side {
     // display: flex;
+    // position: relative;
+    // max-width: 50vw;
+    min-width: 50vw;
+    background-color: #F0F1F1;
 }
 
 .home_about_us_title {
-    // display: flex;
-    // justify-content: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 114px;
     font-family: 'Open Sans';
     font-size: 38px;
     letter-spacing: -0.76px;
     color: #3c3c3c;
     opacity: 1;
+    margin-top: 212px;
 }
 
 .home_about_us_description {
-    // display: flex;
-    // justify-content: center;
-    // text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 30px;
     font-family: 'Open Sans';
     letter-spacing: -0.6px;
     color: #3c3c3c;
     opacity: 1;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
-// .home_about_us_sign {
-//     display: flex;
-//     justify-content: center;
-//     margin-left: 450px;
-// }
+.home_about_us_sign {
+    display: flex;
+    justify-content: flex-end;
+    // margin-left: 450px;
+    margin-bottom: 212px;
+    margin-right: 152px;
+}
 
 .home_about_us_right_side {
-    margin-right: -1500px;
-    background-size: cover;
-    z-index: -1;
-    max-width: 200%;
+    // background-size: cover;
+    // max-width: 100%;
+    // overflow: hidden;
+    // position: relative;
+    // height: 935px;
 }
